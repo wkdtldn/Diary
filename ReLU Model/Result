@@ -1,0 +1,12 @@
+Train Result :
+        Loss :
+                Min : 0.594, Max : 0.692
+        Accuacy :
+                Min : 0.517, Max : 0.677
+Test Result :
+        Loss :
+                Min : 0.596, Max : 0.691
+        Accuacy :
+                Min : 0.531, Max : 0.673
+
+한 Epoch 당 3초 정도 소요(batch size = 64)

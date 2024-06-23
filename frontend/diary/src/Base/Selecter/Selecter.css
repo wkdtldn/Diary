@@ -1,0 +1,37 @@
+:root {
+  --btn-write-color: rgb(255, 110, 110);
+  --hover-btn-write-color: rgb(255, 80, 80);
+  --btn-records-color: rgb(255, 184, 126);
+  --hover-btn-records-color: rgb(255, 184, 51);
+  --btn-others-color: rgb(255, 255, 137);
+  --hover-btn-others-color: rgb(191, 191, 33);
+}
+.BtnWrapper {
+  z-index: 0;
+  position: relative;
+  width: 6%;
+  height: 75%;
+  margin-top: 2%;
+  margin-left: -1px;
+  flex-direction: column;
+}
+button {
+  width: 90%;
+  margin-bottom: 7px;
+  margin-left: 1px;
+  height: 7%;
+  border: none;
+  border-radius: 0 5px 5px 0;
+}
+button#write {
+  background-color: var(--btn-write-color);
+}
+button#write:hover {
+  background-color: var(--hover-btn-write-color);
+}
+button#records {
+  background-color: var(--btn-records-color);
+}
+button#records:hover {
+  background-color: var(--hover-btn-records-color);
+}

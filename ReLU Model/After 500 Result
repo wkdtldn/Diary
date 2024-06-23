@@ -1,0 +1,10 @@
+rain Result :
+        Loss :
+                Min : 0.499, Max : 0.692
+        Accuacy :
+                Min : 0.526, Max : 0.753
+Test Result :
+        Loss :
+                Min : 0.514, Max : 0.691
+        Accuacy :
+                Min : 0.546, Max : 0.741

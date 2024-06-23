@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Poetsen+One&family=Single+Day&display=swap");
+
+.BlockBox {
+  width: 175px;
+  height: 150px;
+  border-radius: 7px;
+  font-size: 12px;
+  position: relative;
+  margin: 10px;
+  background-color: white;
+  box-shadow: 0 7px 14px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.12);
+}
+
+.date {
+  width: 100%;
+  margin: 8px;
+  font-size: 15px;
+  font-family: "Ownglyph_meetme-Rg";
+  font-style: normal;
+}
+@font-face {
+  font-family: "Ownglyph_meetme-Rg";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2402_1@1.0/Ownglyph_meetme-Rg.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+.title {
+  margin: 10px;
+  font-family: "Ownglyph_meetme-Rg";
+  font-size: 16px;
+}
+.BlockWrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+hr {
+  background-color: #fff;
+  border-width: 0.3px 0 0;
+  width: 92%;
+}
